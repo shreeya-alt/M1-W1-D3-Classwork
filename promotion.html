@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table Template</title>
+
+    <style>
+
+        body{
+            font-family: 'Open Sans',sans-serif;
+            color: #151719;
+
+        }
+
+        h2{
+            font-family: Roboto,sans-serif;
+            color: #7073ec;
+            font-size: 2.25rem;
+        }
+        
+        p{
+            color: #151719;
+            line-height: 18pt;
+        }
+
+        div{
+            text-align: center;
+            width: 40%;  
+        }
+
+        .btn{
+            background-color: #4aa5ec;
+            color: white;
+            font-size: 12pt;
+            padding: 17px 25px;
+            border: transparent;
+            border-radius: 7px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover{
+            background-color: #3095e2;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin-top: 2em;
+            margin-left: 8em;
+            margin-right: 8em;
+            table-layout: fixed;
+            width: 15em;
+        }
+
+        th, td{
+            border: 1px solid #dbdfe2;
+            width: 16.2em;
+            padding: 0.8em;
+        }
+
+        .border{
+            border: transparent;
+        }
+
+        .thead{
+            text-align: center;
+            color: #8c8d8d;
+        }
+
+        .twenty{
+            font-size: 25pt;
+            background-color: #7ebff2;
+            color: white;
+        }
+        .fifty{
+            font-size: 25pt;
+            background-color: #4a87ec;
+            color: white;
+        }
+        .hundred{
+            font-size: 25pt;
+            background-color: #7073ec;
+            color: white;
+        }
+
+        .user{
+            font-size: 13pt;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .firstBtn{
+            background-color: #7ebff2;
+            color: white;
+            padding: 13px 24px;
+            font-size: 12pt;
+            border: transparent;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .firstBtn:hover{
+            background-color: #5daeef;
+        }
+        .secondBtn{
+            background-color: #4a87ec;
+            color: white;
+            padding: 13px 24px;
+            font-size: 12pt;
+            border: transparent;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .secondBtn:hover{
+            background-color: #2e74e9;
+        }
+        .thirdBtn{
+            background-color: #7073ec;
+            color: white;
+            padding: 13px 24px;
+            font-size: 12pt;
+            border: transparent;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .thirdBtn:hover{
+            background-color: #5155e8;
+        }
+
+        .margin{
+            margin-left: 65px;
+        }
+        .padding{
+            padding: 7px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+            <h2>Pricing Table Template</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="btn">start your free trial</button>
+        </div>
+    </center>
+
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <td class="border"></td>
+                <td class="thead">BASIC</td>
+                <td class="thead">STANDART</td>
+                <td class="thead">ADVANCED</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="layout">Monthly price</td>
+                <th class="twenty">$ 29</th>
+                <th class="fifty">$ 59</th>
+                <th class="hundred">$ 139</th>
+            </tr>
+            <tr>
+                <td>Users</td>
+                <td class="user">1 full user</td>
+                <td class="user">5 full users</td>
+                <td class="user">Custom users</td>
+            </tr>
+
+            <tr>
+                <td>Unlimited read-only users</td>
+                <td class="user">1,000 Email Previews</td>
+                <td class="user">2,000 Email Previews</td>
+                <td class="user">Custom Email Previews</td>
+            </tr>
+
+            <tr>
+                <td>Contacts</td>
+                <td class="user">5 contacts per client</td>
+                <td class="user">25 contacts per client</td>
+                <td class="user">Unlimited contacts</td>
+            </tr>
+            <tr>
+                <td>Coffee</td>
+                <td class="user">5 cups</td>
+                <td class="user">8 cups</td>
+                <td class="user">10 cups</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td class="padding"><button class="firstBtn margin">choose plan</button></td>
+                <td class="padding"><button class="secondBtn margin">choose plan</button></td>
+                <td class="padding"><button class="thirdBtn margin">choose plan</button></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
